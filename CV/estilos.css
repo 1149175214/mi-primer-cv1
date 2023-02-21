@@ -1,0 +1,97 @@
+
+
+h1{background-color:black;
+              color: white;
+
+}
+
+
+
+h2{color: black;font-size: large;}
+
+body{font-family: 'Roboto Flex', sans-serif;}
+
+#profilephoto{
+      border: 1px solid black
+}
+
+#trabajoactual{
+    color: grey
+}
+
+#descripcióndetareas2 {
+    color: grey
+}
+
+
+.conteiner a{
+    color: black;
+    padding: 11px;
+    margin-left: 11px;
+    display: inline-block;
+    text-decoration: none;
+    border: radius 100%;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    margin: 0px 5px;
+    font-size: 19px;
+    transition: .0.6s cubic-bezier(0,0.6,0.35,1.21) transform, 0.2 ease opacity;
+    position:relative;
+    transform: translate(0,0);
+    opacity: 0.60;
+
+    
+ }
+
+ .conteiner a:hover{
+    background-color: transparent ;
+    opacity: 1;
+    transform: translate(0,-10px);
+
+
+
+
+ }
+ 
+#sobremi{line-height:0}
+
+#boton1 { 
+    display: block;
+    white-space: nowrap;
+    cursor: pointer;
+    border: 2px solid black;
+    width: fit-content;
+    color: white;
+    margin-left: 1190px;
+    transition: 0.6s;
+    font-size: medium;
+
+}
+
+
+
+#html {padding: 15px;margin-left: 15px;}
+
+
+#estudios1 {white-space: nowrap;overflow: hidden;text-overflow: ellipsis}
+
+/*--SECCIÓN RESPONSIVE--*/
+
+@media screen and (max-width:980px){
+    nav{
+        display: none;
+    }
+    .nav.resppnsive {
+        display: block;
+    }
+    nav.responsive{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 75px;
+        background-color: black;
+        width: 180px;
+
+    }
+}
